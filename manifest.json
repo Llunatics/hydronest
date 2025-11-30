@@ -1,0 +1,90 @@
+{
+  "name": "HydroNest - Platform Edukasi Pertanian Modern",
+  "short_name": "HydroNest",
+  "description": "Platform E-Learning untuk Hidroponik, Akuaponik, dan Urban Farming",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#10B981",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["education", "agriculture", "technology"],
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192x192?text=HydroNest",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512?text=HydroNest",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/maskable_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/maskable_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/540x720?text=HydroNest+Home",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "https://via.placeholder.com/1280x720?text=HydroNest+Desktop",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Pembelajaran",
+      "short_name": "Belajar",
+      "description": "Akses langsung ke halaman pembelajaran",
+      "url": "/courses.html",
+      "icons": [
+        {
+          "src": "https://via.placeholder.com/96x96?text=Courses",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Komunitas",
+      "short_name": "Komunitas",
+      "description": "Bergabung dengan komunitas petani muda",
+      "url": "/index.html#komunitas",
+      "icons": [
+        {
+          "src": "https://via.placeholder.com/96x96?text=Community",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}

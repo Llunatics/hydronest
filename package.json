@@ -1,0 +1,37 @@
+{
+  "name": "HydroNest",
+  "version": "1.0.0",
+  "description": "Platform Edukasi Pertanian Modern - Hidroponik, Akuaponik, dan Urban Farming",
+  "main": "index.html",
+  "author": "Tim HydroNest",
+  "license": "MIT",
+  "keywords": [
+    "pertanian",
+    "hidroponik",
+    "akuaponik",
+    "urban farming",
+    "edukasi",
+    "e-learning",
+    "ketahanan pangan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hydronest/platform"
+  },
+  "bugs": {
+    "url": "https://github.com/hydronest/platform/issues",
+    "email": "support@hydronest.id"
+  },
+  "homepage": "https://hydronest.id",
+  "contact": {
+    "email": "info@hydronest.id",
+    "phone": "+62 812 3456 7890",
+    "address": "Jakarta, Indonesia"
+  },
+  "social": {
+    "facebook": "https://facebook.com/hydronest",
+    "twitter": "https://twitter.com/hydronest",
+    "instagram": "https://instagram.com/hydronest_id",
+    "youtube": "https://youtube.com/@hydronest"
+  }
+}

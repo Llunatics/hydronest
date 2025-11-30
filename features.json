@@ -1,0 +1,387 @@
+{
+  "platform": {
+    "name": "HydroNest",
+    "version": "1.0.0",
+    "tagline": "Platform Edukasi Pertanian Modern Indonesia",
+    "description": "Platform E-Learning interaktif untuk belajar hidroponik, akuaponik, dan urban farming",
+    "launchDate": "2025",
+    "status": "active"
+  },
+  "features": [
+    {
+      "id": 1,
+      "name": "Modul Pembelajaran Lengkap",
+      "icon": "fa-book",
+      "description": "Materi dari dasar hingga teknik lanjut mencakup hidroponik, akuaponik, dan urban farming",
+      "benefits": [
+        "Materi terstruktur dan sistematis",
+        "Dari dasar hingga lanjutan",
+        "Panduan nutrisi lengkap",
+        "Tips pemilihan media tanam"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Video Tutorial Praktis",
+      "icon": "fa-video",
+      "description": "Konten video singkat dan jelas dengan demonstrasi step-by-step",
+      "benefits": [
+        "Video HD yang mudah dipahami",
+        "Subtitle tersedia",
+        "Downloadable untuk offline",
+        "Diperbarui secara berkala"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Sesi Tanya Jawab Online",
+      "icon": "fa-users",
+      "description": "Webinar dan live session dengan praktisi serta ahli pertanian",
+      "benefits": [
+        "Tanya jawab real-time",
+        "Interact dengan expert",
+        "Recording tersimpan",
+        "Sertifikat kehadiran"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Studi Kasus & Inspirasi",
+      "icon": "fa-lightbulb",
+      "description": "Contoh proyek sukses di berbagai kota untuk inspirasi dan gambaran nyata",
+      "benefits": [
+        "Case study detail",
+        "Foto & dokumentasi",
+        "ROI analysis",
+        "Success stories"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "Forum Diskusi Komunitas",
+      "icon": "fa-comments",
+      "description": "Ruang diskusi untuk berbagi pengalaman dan membangun jejaring",
+      "benefits": [
+        "Thread discussions",
+        "Expert moderation",
+        "Problem solving",
+        "Networking opportunities"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "name": "Panduan Digital (E-book/PDF)",
+      "icon": "fa-file-pdf",
+      "description": "E-book dan PDF dengan jadwal, tips, dan penanganan hama penyakit",
+      "benefits": [
+        "Jadwal pemupukan",
+        "Tips perawatan",
+        "Pest management",
+        "Downloadable"
+      ],
+      "status": "active"
+    }
+  ],
+  "learningPaths": [
+    {
+      "id": 1,
+      "name": "Hidroponik",
+      "icon": "fa-water",
+      "color": "#3B82F6",
+      "description": "Belajar berbagai sistem hidroponik modern",
+      "courses": [
+        {
+          "level": "Dasar",
+          "title": "Pengenalan Hidroponik",
+          "duration": "2 jam",
+          "videos": 8
+        },
+        {
+          "level": "Dasar",
+          "title": "Sistem NFT & DFT",
+          "duration": "3 jam",
+          "videos": 12
+        },
+        {
+          "level": "Menengah",
+          "title": "Deep Water Culture (DWC)",
+          "duration": "2.5 jam",
+          "videos": 10
+        },
+        {
+          "level": "Menengah",
+          "title": "Wick System",
+          "duration": "2 jam",
+          "videos": 8
+        },
+        {
+          "level": "Lanjut",
+          "title": "Manajemen Nutrisi & Formulasi",
+          "duration": "4 jam",
+          "videos": 15
+        },
+        {
+          "level": "Lanjut",
+          "title": "Optimasi Hasil Panen",
+          "duration": "3 jam",
+          "videos": 11
+        }
+      ],
+      "totalHours": 16.5,
+      "totalVideos": 64
+    },
+    {
+      "id": 2,
+      "name": "Akuaponik",
+      "icon": "fa-fish",
+      "color": "#10B981",
+      "description": "Kombinasi unik budidaya ikan dan tanaman",
+      "courses": [
+        {
+          "level": "Dasar",
+          "title": "Pengenalan Akuaponik",
+          "duration": "2.5 jam",
+          "videos": 9
+        },
+        {
+          "level": "Dasar",
+          "title": "Siklus Nitrogen & Ekosistem",
+          "duration": "3 jam",
+          "videos": 11
+        },
+        {
+          "level": "Menengah",
+          "title": "Pemilihan Ikan & Tanaman",
+          "duration": "2 jam",
+          "videos": 7
+        },
+        {
+          "level": "Menengah",
+          "title": "Desain Sistem Akuaponik",
+          "duration": "2.5 jam",
+          "videos": 9
+        },
+        {
+          "level": "Lanjut",
+          "title": "Manajemen Kesehatan Ikan",
+          "duration": "3 jam",
+          "videos": 12
+        },
+        {
+          "level": "Lanjut",
+          "title": "Troubleshooting Akuaponik",
+          "duration": "2.5 jam",
+          "videos": 10
+        }
+      ],
+      "totalHours": 15.5,
+      "totalVideos": 58
+    },
+    {
+      "id": 3,
+      "name": "Urban Farming",
+      "icon": "fa-city",
+      "color": "#F59E0B",
+      "description": "Berkebun di perkotaan dengan efisien",
+      "courses": [
+        {
+          "level": "Dasar",
+          "title": "Konsep Vertical Garden",
+          "duration": "1.5 jam",
+          "videos": 6
+        },
+        {
+          "level": "Dasar",
+          "title": "Rooftop Farming untuk Pemula",
+          "duration": "2 jam",
+          "videos": 8
+        },
+        {
+          "level": "Menengah",
+          "title": "Membangun Kebun Komunitas",
+          "duration": "3 jam",
+          "videos": 10
+        },
+        {
+          "level": "Menengah",
+          "title": "Pemilihan Tanaman Kota",
+          "duration": "2 jam",
+          "videos": 8
+        },
+        {
+          "level": "Lanjut",
+          "title": "Bisnis Urban Farming",
+          "duration": "3.5 jam",
+          "videos": 13
+        },
+        {
+          "level": "Lanjut",
+          "title": "Sustainable Urban Agriculture",
+          "duration": "2.5 jam",
+          "videos": 10
+        }
+      ],
+      "totalHours": 14.5,
+      "totalVideos": 55
+    }
+  ],
+  "objectives": [
+    {
+      "number": 1,
+      "title": "Kurikulum Lengkap",
+      "description": "Mengembangkan kurikulum edukasi yang lengkap dan sesuai tentang hidroponik, akuaponik, dan urban farming khusus untuk petani muda perkotaan"
+    },
+    {
+      "number": 2,
+      "title": "Platform Interaktif",
+      "description": "Menyediakan wadah atau cara belajar yang interaktif dan mudah diakses melalui platform digital berbasis E-Learning"
+    },
+    {
+      "number": 3,
+      "title": "Praktik Langsung",
+      "description": "Meningkatkan pengetahuan dan kemampuan praktik para petani muda agar mereka bisa menerapkan sendiri teknik pertanian modern"
+    },
+    {
+      "number": 4,
+      "title": "Pertanian Berkelanjutan",
+      "description": "Mendorong minat dan penerapan pertanian berkelanjutan dan inovatif di kalangan generasi muda perkotaan"
+    },
+    {
+      "number": 5,
+      "title": "Komunitas Petani",
+      "description": "Membangun komunitas petani muda di perkotaan yang bisa saling mendukung dan berbagi ilmu"
+    }
+  ],
+  "community": {
+    "totalMembers": 5000,
+    "forumDiscussions": 150,
+    "successProjects": 50,
+    "cities": [
+      "Jakarta",
+      "Surabaya",
+      "Bandung",
+      "Medan",
+      "Makassar",
+      "Yogyakarta"
+    ],
+    "features": [
+      {
+        "name": "Networking",
+        "description": "Jaringan profesional dengan petani dan ahli pertanian lainnya"
+      },
+      {
+        "name": "Berbagi Pengalaman",
+        "description": "Cerita sukses dan pembelajaran dari petani lain"
+      },
+      {
+        "name": "Sertifikasi",
+        "description": "Dapatkan sertifikat setelah menyelesaikan program"
+      }
+    ]
+  },
+  "colorScheme": {
+    "light": {
+      "primary": "#10B981",
+      "primaryLight": "#6EE7B7",
+      "primaryDark": "#047857",
+      "textDark": "#1F2937",
+      "textLight": "#6B7280",
+      "background": "#FFFFFF",
+      "backgroundLight": "#F8FAFC"
+    },
+    "dark": {
+      "primary": "#6EE7B7",
+      "textDark": "#F3F4F6",
+      "textLight": "#D1D5DB",
+      "background": "#1F2937",
+      "backgroundLight": "#111827"
+    }
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "author": "Rima Ananda",
+      "location": "Petani Urban Jakarta",
+      "rating": 5,
+      "message": "HydroNest mengubah cara saya belajar tentang pertanian. Video tutorial sangat jelas dan komunitas sangat membantu!"
+    },
+    {
+      "id": 2,
+      "author": "Bambang Kurniawan",
+      "location": "Pengusaha Muda Surabaya",
+      "rating": 5,
+      "message": "Dengan panduan dari HydroNest, saya berhasil membuat sistem akuaponik pertama saya. Sangat memuaskan!"
+    },
+    {
+      "id": 3,
+      "author": "Siti Nurhaliza",
+      "location": "Komunitas Petani Bandung",
+      "rating": 5,
+      "message": "Platform ini benar-benar mengubah paradigma saya tentang urban farming. Metodenya praktis dan terbukti efektif!"
+    }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "question": "Apakah program ini cocok untuk pemula?",
+      "answer": "Ya, sangat cocok! Program kami dirancang dari nol untuk pemula dengan penjelasan yang mudah dipahami dan video tutorial yang detail."
+    },
+    {
+      "id": 2,
+      "question": "Apakah ada biaya untuk bergabung?",
+      "answer": "Konten dasar tersedia gratis. Kami juga menawarkan membership premium dengan akses ke fitur-fitur eksklusif dan sertifikasi resmi."
+    },
+    {
+      "id": 3,
+      "question": "Berapa lama waktu yang dibutuhkan untuk menguasai?",
+      "answer": "Ini tergantung pada komitmen Anda. Rata-rata, peserta bisa memulai praktik dalam 2-3 minggu pembelajaran aktif."
+    },
+    {
+      "id": 4,
+      "question": "Bagaimana cara menghubungi komunitas?",
+      "answer": "Setelah mendaftar, Anda akan mendapat akses ke forum diskusi, grup WhatsApp komunitas, dan dapat mengikuti webinar rutin setiap minggu."
+    }
+  ],
+  "contact": {
+    "email": "info@hydronest.id",
+    "phone": "+62 812 3456 7890",
+    "location": "Jakarta, Indonesia",
+    "workingHours": "Senin-Jumat: 09:00-17:00 WIB",
+    "social": {
+      "facebook": "https://facebook.com/hydronest",
+      "twitter": "https://twitter.com/hydronest",
+      "instagram": "https://instagram.com/hydronest_id",
+      "youtube": "https://youtube.com/@hydronest"
+    }
+  },
+  "technicalDetails": {
+    "frontend": {
+      "html": "HTML5 Semantic",
+      "css": "CSS3 with Variables & Flexbox/Grid",
+      "javascript": "Vanilla ES6+",
+      "libraries": [
+        "Font Awesome 6.4.0 (Icons)",
+        "Google Fonts (Poppins, Inter)"
+      ]
+    },
+    "features": {
+      "responsive": "Mobile-First Design",
+      "darkMode": "Full Support with localStorage",
+      "animations": "CSS3 & JavaScript",
+      "performance": "Optimized & Fast Loading",
+      "accessibility": "WCAG 2.1 Compliant"
+    },
+    "browsers": [
+      "Chrome/Edge (Latest)",
+      "Firefox (Latest)",
+      "Safari (Latest)",
+      "Mobile Safari",
+      "Chrome Mobile"
+    ]
+  }
+}
