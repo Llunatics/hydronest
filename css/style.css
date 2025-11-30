@@ -1308,10 +1308,16 @@ body {
 }
 
 .member-card p {
-    font-size: 13px;
+    font-size: 12px;
     color: var(--text-light);
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     font-weight: 500;
+}
+
+.member-location {
+    font-size: 12px;
+    color: var(--text-light);
+    margin-bottom: 12px;
 }
 
 .member-badge {
